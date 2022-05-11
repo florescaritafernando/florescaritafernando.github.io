@@ -1,0 +1,60 @@
+body{
+background-color: #191c32;
+
+}
+
+h1{
+    align-content: center;
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 20px;
+}
+.container{
+    /*align-content: center;*/
+    padding: 2em;
+}
+embed{
+
+    align-content: center;
+    width: 100%;
+    height: 800px;
+}
+
+.volver{
+    float: left;
+    padding: 10px 20px;
+    background-color: yellow;
+    border: none;
+    border-radius: 2px;
+    margin-top: 15px;
+    cursor: pointer;
+    box-shadow: 1px 3px 9px 10px rgba(70, 194, 226, 0.8);
+}
+
+.container button{
+    color: #191c32;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.volver:hover{
+    background-color: #191c32;
+    opacity: 90%;
+    color:  white;
+    opacity: 80%;
+    transition: ease-in .5s;
+}
+
+.container a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container a:hover{
+    background-color:yellow;
+    color:black;
+    opacity: 80%;
+    transition: ease-in .5s;
+}
