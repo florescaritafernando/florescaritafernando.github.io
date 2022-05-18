@@ -140,21 +140,21 @@ body {
 .portafolio section[id]{
 	scroll-margin-top:78px;
 }
+
 .portafolio{
-	/*
-		width: 100vw;
+	
+	width: 100vw;
 	height: auto;
 	background-color: whitesmoke;
 	color: white;
 	font-size: 20px;
 	font-weight: bold;
-*/
 	
+	/*
 	display: grid;
 	grid-template-columns: repeat(10, 1fr);
-	width: 100vw;
-	align-items: center;
-	background-color: whitesmoke;
+	width: 100%;
+	background-color: green;*/
 	
 }
 
@@ -165,9 +165,88 @@ body {
 .portafolio .titulo{
 	width: 100vw;
 	height: 100px;
-	background-color: blueviolet;
+	background-color: #191c32;
 	text-align: center;
 	align-content: center;
+	padding-top: 30px;
+	color: white;
+	font-size: 10px;
+
+
+}
+
+.portafolio .container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height:	auto;
+}
+
+.portafolio .card{
+	width: 15rem;	
+	border-radius: 1rem;
+	display: flex;
+	margin: 1.5rem;
+	overflow: hidden;
+	background-color: rgba(255, 255, 255, 0.06);
+	backdrop-filter:  blur(1rem);
+	border: .1rem solid rgba(255, 255, 255, 0.18);
+	color: white;
+}
+
+.portafolio img{
+	width: 100%;
+	padding: 15px;
+}
+
+.portafolio .card:hover{
+	transform: translateY(-15px);
+	box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+
+}
+.portafolio .top-row{
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.portafolio .background-top-row{
+	background-color: #191c32;
+	backdrop-filter:  blur(.4rem);
+	width: 100%;
+}
+
+.portafolio .card h4{
+	letter-spacing: .1rem;
+	margin: 1rem 0;
+}
+
+.portafolio .top-row i{
+	font-size: 3rem;
+}
+
+.portafolio .content{
+	padding: 2rem;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	color: white;
+}
+
+
+/*
+.portafolio h1{
+	font-size: 3em;
+}
+
+.portafolio .titulo_portafolio{
+	width: 100vw;
+	height: 100px;
+	background-color: blueviolet;
+	text-align: center;
 	padding-top: 30px;
 	color: white;
 	font-size: 10px;
@@ -175,8 +254,8 @@ body {
 
 .portafolio .container{
 	width: 100%;
-	height: auto;
-	background-color: #191c32;
+	height: 500px;
+	background-color: white;
 	text-align: center;
 	align-content: center;
 	padding-top: 30px;
@@ -184,7 +263,7 @@ body {
 	font-size: 10px;
 	align-items: center;
 	align-content: center;
-
+	background-color: black;
 }
 
 .portafolio .card{
@@ -213,7 +292,7 @@ body {
 	width: 100%;
 	padding: 10%;
 	grid-column: 1/5;
-	/*padding-left: 45px;*/
+	padding-left: 45px;
 }
 
 .portafolio-info{
@@ -232,6 +311,7 @@ body {
 	margin: 1em;
 
 }
+*/
 
 /* FOOTER */
 
