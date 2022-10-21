@@ -421,6 +421,15 @@ body {
 	padding: 15px;
 }
 
-@media and screen(max-width: 1010px){
+@media screen and (max-width: 500px){
+
+
+
+
+
+
+.footer{
+	background-color: black;
+}
 
 }
