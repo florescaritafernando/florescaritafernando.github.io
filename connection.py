@@ -1,11 +1,12 @@
-from msilib.schema import Error
 import sqlite3
 
-def create_connection(DB_Manchester2022):
-    conn = None
-    try:
-        conn = sqlite3.connect(DB_Manchester2022)
-    except Error as e:
-        print(e)
+try:
+    conn = sqlite3.connect("database/db_manchester.db")
+    cursor=conn.cursor()
+    cursor.execute("select * from tb_diseno_color")
+    rows=cursor.fetchall()
+    for row in rows:
+        print(row)
+except Exception as ex:
+    print(ex)
 
-    return conn
