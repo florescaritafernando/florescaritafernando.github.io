@@ -100,7 +100,7 @@ body {
 	grid-template-columns: repeat(2, 1fr);
 	width: 100vw;
 	align-items: center;
-	background-color: whitesmoke;
+	background-color: #A8A3BA;
 	height: auto;
 }
 
@@ -145,7 +145,7 @@ body {
 	
 	width: 100vw;
 	height: auto;
-	background-color: whitesmoke;
+	background-color: #A8A3BA;
 	color: white;
 	font-size: 20px;
 	font-weight: bold;
@@ -176,16 +176,18 @@ body {
 }
 
 .portafolio .container{
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	width: 100%;
 	height:	auto;
+	max-width: 1200px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
-.portafolio .card{
-	width: 15rem;	
+.portafolio .container .card{
+	width: 220px;
+	height: auto;	
 	border-radius: 1rem;
-	display: flex;
 	margin: 1.5rem;
 	overflow: hidden;
 	background-color: rgba(255, 255, 255, 0.06);
@@ -196,7 +198,8 @@ body {
 
 .portafolio img{
 	width: 100%;
-	padding: 15px;
+	height: auto;
+	align: center;
 }
 
 .portafolio .card:hover{
@@ -220,6 +223,7 @@ body {
 .portafolio .card h4{
 	letter-spacing: .1rem;
 	margin: 1rem 0;
+	text-align: center;
 }
 
 .portafolio .top-row i{
@@ -322,7 +326,7 @@ body {
 .footer {
 	width: 100vw;
 	height: auto;
-	background-color: whitesmoke;
+	background-color: #A8A3BA;
 	color: white;
 	font-size: 20px;
 	font-weight: bold;
