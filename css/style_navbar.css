@@ -24,11 +24,12 @@
 	margin-top: -10px;
 	font-size: 30px;
 	line-height: 80px;
-	font-weight: bold;
+	font-weight: bolder;
 
 }
 .brand span{
-	color: yellow;
+	color: #E5F033;
+	font-weight: bold;
 }
 
 
@@ -46,6 +47,7 @@
 	line-height: 80px;
 }
 
+
 .menu a{
 	color: white;
 	text-decoration: none;
@@ -56,12 +58,12 @@
 .menu .active{
 	color: white;
 }
-
+/*
 .menu .active:hover{
 	background-color: yellow;
 	transition: ease-in .5s;
 	color: black;
-}
+}*/
 
 .nav-toggle{
 	color: white;

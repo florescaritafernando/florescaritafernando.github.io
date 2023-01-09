@@ -45,18 +45,19 @@ body {
 	color: #191c32;
 	font-size: 17px;
 	font-weight: bold;
+	border-radius: 1rem;
 }
 .main h1{
 	font-size: 3em;
 }
 
 .main span{
-	color: yellow;
+	color: #E5F033;
 }
 
 .download-cv{
 	padding: 10px 20px;
-	background-color: yellow;
+	background-color: #E5F033;
 	border: none;
 	border-radius: 2px;
 	margin-top: 15px;
@@ -349,16 +350,18 @@ body {
 }
 
 .footer .container{
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	width: 100%;
 	height:	auto;
+	max-width: 1200px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
-.footer .card{
-	width: 15rem;	
+.footer .container .card{
+	width: 220px;
+	height: auto;	
 	border-radius: 1rem;
-	display: flex;
 	margin: 1.5rem;
 	overflow: hidden;
 	background-color: rgba(255, 255, 255, 0.06);
@@ -366,6 +369,7 @@ body {
 	border: .1rem solid rgba(255, 255, 255, 0.18);
 	color: white;
 }
+
 
 .footer .card:hover{
 	transform: translateY(-15px);
@@ -395,8 +399,9 @@ body {
 }
 
 .footer .content{
-	padding: 2rem;
+	padding: 1rem;
 	width: 100%;
+	height: auto;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -404,36 +409,55 @@ body {
 	color: white;
 }
 
+
 .footer .button{
 	border-radius: 1rem;
 	color: white;
-	font-size: .8rem;
-	padding: .2rem .1rem;
+	font-size: 15px;
+	padding: 15px;
 	letter-spacing: .1rem;
 	text-align: center;
 	border: .1rem solid rgba(255, 255, 255, 0.18);
 	cursor: pointer;
+	text-align: center;
+	width: 100%;
+	height: 50px;
 }
+.footer .button:hover{
+	border-radius: 1rem;
+	color: #191c32;
+	font-size: 15px;
+	padding: 15px;
+	letter-spacing: .1rem;
+	text-align: center;
+	border: .1rem solid rgba(255, 255, 255, 0.18);
+	cursor: pointer;
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	background-color: #E5F033;
+	font-weight: bold;
+	transition: ease-in .5s;
+}
+
 
 
 .footer .copyright{
 	width: 100vw;
 	height: auto;
-	background-color: dimgrey;
+	background-color: black;
 	float: left;
 	text-align: center;
 	padding: 15px;
 }
 
+
+
 @media screen and (max-width: 500px){
 
 
-
-
-
-
 .footer{
-	background-color: black;
+	background-color: #A8A3BA;
 }
 
 }
